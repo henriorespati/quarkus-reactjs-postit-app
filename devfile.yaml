@@ -27,7 +27,7 @@ components:
     mountSources: true
     endpoints:
       - name: 'quarkus-prod'
-        port: 8080
+        port: 8090
     command: ['tail']
     args: ['-f', '/dev/null']
     env:
